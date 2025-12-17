@@ -151,8 +151,11 @@ Add:
   Do NOT expose API keys in frontend
   
   Create:
+  
   `src-tauri/.env`
+  
   Inside .env:
+  
   `DEEPGRAM_API_KEY = your_deepgram_key_here`
 
 ## 🔹 Run in Development
