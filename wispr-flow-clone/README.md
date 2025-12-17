@@ -158,9 +158,11 @@ Add:
 ## 🔹 Run in Development
 
   For react: 
+  
       `npm run dev`
       
   For tauri:
+  
       `npx tauri dev`
 
 
