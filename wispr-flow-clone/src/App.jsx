@@ -13,7 +13,7 @@ function App() {
       return;
     }
     setDisplayText("");
-    let index = -1;
+    let index = 0;
     const interval = setInterval(() => {
       setDisplayText(prev => prev + transcript[index]);
       index++;
