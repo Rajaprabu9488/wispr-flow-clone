@@ -133,37 +133,37 @@ Add:
   • Deepgram API
   
   ## In Terminal (After git clone):
-      `cd wispr-flow-clone`
+  `cd wispr-flow-clone`
       
   ## After installation of Rust, Install Tauri with this command:
-      `cargo install tauri-cli`
+  `cargo install tauri-cli`
             (or)
-      `npm install tauri-cli`
+  `npm install tauri-cli`
       
 ## 🔹 Clone Repository
-     `git clone https://github.com/your-username/wisprflow.git`
+  `git clone https://github.com/your-username/wisprflow.git`
 
 ## 🔹 Install Frontend Dependencies
-      `npm install`
+  `npm install`
 
 ## 🔹 Environment Variables (Backend)
 
   Do NOT expose API keys in frontend
   
   Create:
-        `src-tauri/.env`
+  `src-tauri/.env`
   Inside .env:
-        `DEEPGRAM_API_KEY = your_deepgram_key_here`
+  `DEEPGRAM_API_KEY = your_deepgram_key_here`
 
 ## 🔹 Run in Development
 
   For react: 
   
-      `npm run dev`
+  `npm run dev`
       
   For tauri:
   
-      `npx tauri dev`
+  `npx tauri dev`
 
 
 # 🧠 Key Design Decisions
