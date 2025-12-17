@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* banner alignment (wispr flow) */
+.Banner p{
+  font-family: 'Times New Roman', Times, serif;
+}
+.Banner h1{
+  padding: 0px;
+  margin: 0px;
+}
+.Banner p{
+  padding: 0px;
+  margin: 5px;
+  display: inline;
+}
+
+.Banner .first_name{
+  color: skyblue;
+  font-size: 80px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Banner .second_name{
+  font-size: 60px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+/* Textarea alignment */
+.transcripted_text{
+  width:90%;
+  min-height: 120px;
+  max-height: 300px;
+  margin:30px;
+  resize: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 20px;
+  border: 2px solid lightskyblue;
+  border-radius: 20px;
+}
+
+.transcripted_text:hover{
+  border: 2px solid lightskyblue;
+
+}
+
+/* disable the textarea scrollbar  */
+.transcripted_text::-webkit-scrollbar{
+  display: None;
+}
+
+/* audio capturing and controlling alignment */
+.Audiowave_control{
+  margin-top: 100px;
+}
+
+
+
