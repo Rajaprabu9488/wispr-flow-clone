@@ -219,7 +219,7 @@ Add:
 
   • No real-time streaming transcription
   
-  • Large recordings increase memory usage
+  • Large recordings increase memory usage & Processing time
   
   • Works best with single-speaker audio
   
@@ -227,7 +227,7 @@ Add:
   
   • WebM audio format only
   
-  • No text summarization
+  • No text summarization (Cannot understand what speaker try to tell) 
   
   • No auto-correction
   
@@ -240,7 +240,9 @@ Add:
 <img width="1916" height="1017" alt="image" src="https://github.com/user-attachments/assets/505b3730-a290-4a9f-8232-f087c15139f2" />
 
 
+# 🎥 Video
 
+Video link: https://drive.google.com/file/d/1zA9yZzT1a0gsXQc-jNkIJIGEFlhmh8AU/view?usp=drive_link
 
   
 # 📌 Repository Notes:
