@@ -7,25 +7,36 @@ function App() {
   const [isTyping,setisTyping]=useState(false);
 
   // Typing effect
-  useEffect(() => {
-    if (!transcript) {
-      setDisplayText("");
+useEffect(() => {
+  if (!transcript) {
+    setDisplayText("");
+    setisTyping(false);
+    return;
+  }
+
+  setDisplayText("");
+  setisTyping(true);
+
+  let index = 0;
+
+  // append first letter immediately
+  setDisplayText(transcript.charAt(index));
+  index++;
+
+  const interval = setInterval(() => {
+    if (index >= transcript.length) {
+      clearInterval(interval);
+      setisTyping(false);
       return;
     }
-    setDisplayText("");
-    let index = 0;
-    const interval = setInterval(() => {
-      setDisplayText(prev => prev + transcript[index]);
-      index++;
-      if (index == transcript.length-1) {
-        clearInterval(interval);
-        setisTyping(false);
-      }
-    }, 40);
-    return () => {clearInterval(interval); 
-      setisTyping(false);
-    };
-  }, [transcript]);
+    setDisplayText(prev => prev + transcript.charAt(index));
+    index++;
+  }, 40);
+
+  return () => clearInterval(interval);
+}, [transcript]);
+
+
   return (
     <>
       <div className='Banner'>
