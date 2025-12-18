@@ -16,7 +16,7 @@ function TypingEffect({ transcriptText , setIsTyping }) {
       setIsTyping(false);
       return;
     }
-
+    setDisplayText("");
     setIsTyping(true);
 
     // function to type next character
@@ -32,7 +32,7 @@ function TypingEffect({ transcriptText , setIsTyping }) {
         const nextChar =transcriptText.charAt(prev.length);
 
         // schedule next character
-        timeoutRef.current = setTimeout(typeNext, 40);
+        timeoutRef.current = setTimeout(typeNext, 80);
 
         return prev + nextChar;
       });
