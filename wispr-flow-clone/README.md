@@ -232,6 +232,15 @@ Add:
   • No auto-correction
   
 # 📷 Screenshot:
+
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/b8bfc7cb-4273-4fc3-b050-065205a338f3" />
+
+<img width="1918" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f443e43-c728-4adb-9327-a69da713a7e6" />
+
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/52b5e2ce-cad2-4cc4-83b1-b91eb3918e2e" />
+
+
+
   
 # 📌 Repository Notes:
 
