@@ -11,10 +11,15 @@ function App() {
   return (
     <>
       <div className='Banner'>
+        {/* // Banner text */}
         <h1><p className='first_name'>Wispr</p><p className='second_name'>flow</p></h1>
         <p>Turn Your Voice Into Text</p>
       </div>
+
+      {/* // Text area */}
       <TypingEffect transcriptText={transcript} setIsTyping={setisTyping}/>
+
+      {/* // audio control */}
       <div className='Audiowave_control'>
         <Audiorecorder onTranscript={SetTranscript} Typing={isTyping} setTyping={setisTyping}/>
       </div>
